@@ -1,0 +1,158 @@
+#mainContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+#bannerContainer,
+#formContainer {
+    flex: 1 1 0;
+    width: 50%;
+}
+
+#bannerContainer {
+    text-align: right;
+}
+
+#bannerContainer img {
+    margin-right: -15px;
+}
+
+#formContainer {
+    text-align: center;
+}
+
+#formBox {
+    background-color: #fff;
+    border: 1px solid #DBDBDB;
+    width: 350px;
+    margin-top: 30px;
+}
+
+#formBox #logoInsta {
+    width: 175px;
+    height: 51px;
+    margin: 30px auto 12px;
+    background-color: #FFF;
+}
+
+#logoForm {
+    margin-top: 20px;
+}
+
+#logoForm input {
+    display: block;
+    font-size: 12px;
+    padding: 12px 9px;
+    width: 268px;
+    background-color: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin: 5px auto;
+}
+
+
+#logoForm input[type="submit"] {
+    background-color: #B2DFFC;
+    color: #FFF;
+    margin-top: 15px;
+    border-radius: 5px;
+    border-color: #B2DFFC;
+    height: 30px;
+    font-size: 13px;
+    padding: 0;
+    font-weight: bold;
+}
+
+.separator {
+    position: relative;
+}
+
+.separator .line {
+    border-top: 1px solid #DBDBDB;
+    width: 268px;
+    margin: 25px auto 35px auto;
+}
+
+.separator span {
+    position: absolute;
+    text-transform: uppercase;
+    color: #BBB;
+    top: -6px;
+    width: 50px;
+    left: 50%;
+    margin-left: -25px;
+    font-size: 14px;
+}
+
+#facebookLogin {
+    margin-bottom: 25px;
+}
+
+#facebookLogin a {
+    text-decoration: none;
+    color: #385185;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#facebookLogin img {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+#facebookLogin span {
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 1px;
+}
+
+#forgotPass {
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+#forgotPass a {
+    text-decoration: none;
+    color: #373799;
+}
+
+#registerContainer {
+    background-color: #FFF;
+    border: 1px solid #DBDBDB;
+    width: 350px;
+    margin-top: 10px;
+    padding: 25px;
+}
+
+#registerContainer p {
+    font-size: 14px;
+    color: #262626;
+}
+
+#registerContainer a {
+    color: #4A95F6;
+    font-weight: bold;
+    text-decoration: none;
+} 
+
+#getAppContainer {
+    text-align: center;
+    width: 350px;
+}
+
+#getAppContainer p {
+    margin: 20px 0;
+    font-size: 13px;
+}
+
+
+#getAppContainer img {
+    width: 136px;
+    height: 40px;
+
+}
+
+
