@@ -4,10 +4,6 @@ footer {
     margin: 40px auto;
 }
 
-footer nav {
-    display: flex;
-}
-
 footer #footerLinks {
     list-style: none;
 }
